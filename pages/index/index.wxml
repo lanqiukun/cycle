@@ -1,0 +1,5 @@
+<scroll-view class="container"  scroll-y="true" bindscroll="handle_scroll">
+
+  <view class="button {{item.style}}" wx:for="{{list_data}}" wx:key="index">{{item.content}}</view>
+  
+</scroll-view>
